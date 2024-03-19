@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-TRACK SOFTWARE FEEDBACK </title>   
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+<div class="menu-bar">
+<div class="bar">
+
+<div class="logo">
+<img src="LOGO.png" alt="LOGO"></div>
+
+
+
+
+
+            <ul>
+                <li><a href="file:///C:/Users/iraqui/Desktop/c-track%20feed/index.html">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+				<li><a href="#">HELP DESK</a></li>
+				
+
+         <li><a href="active"><a href="#">USER GUIDELINES</a>
+                  <div class="sub-menu-1">
+ <ul>
+ 
+ <li><a href="active"><a href="Ctrackguide.pdf">CTRACK</a></li>
+ <li><a href="active"><a href="#">BCYST</a></li>
+ <li><a href="active"><a href="#">FLASH BILLS</a></li>
+
+ 
+ </ul>
+</div>
+</li>
+
+ <li><a href="active"><a href="#">SERVICES</a>
+                  <div class="sub-menu-1">
+ <ul>
+ 
+ <li><a href="active"><a href="https://www.appctrack.in/#/index" target="_blank">CTRACK</a></li>
+ <li><a href="active"><a href="#">BCYST</a></li>
+ <li><a href="active"><a href="#">FLASH BILLS</a></li>
+
+ 
+ </ul>
+</div>
+</li>
+
+</ul>
+</div></div>
+
+
+<h1>C-TRACK SOFTWARE</h1>
+
+
+
+
+
+
+    <div class="container register">
+        
+          
+                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+                    aria-labelledby="home-tab">
+                    <h3 class="register-heading text-nowrap">C-TRACK FEEDBACK FORM</h3>
+                    <div class="row register-form">
+					
+                      
+                            <form autocomplete="off">
+                                <div class="form-group">
+								<div class="BLANK">
+								
+                                    <input type="text" name="Name" id="name" class="form-control"
+                                        placeholder="COMPANY NAME *" value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Email" id="email" class="form-control"
+                                        placeholder="Your Email *" value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="Phone" id="phone" class="form-control"
+                                        placeholder="Your Contact Number *" value="" required="" />
+                                </div>
+								
+								 <div class="form-group">
+                                    <input type="text" name="USER" id="USER" class="form-control"
+                                        placeholder="USER NAME *" value="" required="" />
+                                </div>
+								
+								<div class="form-group">
+                                    <input type="text" name="POSITION" id="POSITION" class="form-control"
+                                        placeholder="POSITION *" value="" required="" />
+                                </div>
+								
+								
+                                <div class="form-group">
+                                    <select class="form-control" id="service">
+                                        <option>ANY ISSUE WITH SOFTWARE</option>
+                                        <option>YES</option>
+										 <option>NO</option>   
+                                    </select>
+                                </div>
+								
+								<div class="form-group">
+                                    <input type="text" style="height:100px; width:250px"  name="DESCRIPTION" id="DESCRIPTION" class="form-control"
+                                        placeholder="DESCRIPTION *" value="" required="" />
+                                </div>
+								
+								
+								
+								
+								
+								
+								
+                                <div class="form-group">
+                                    <input type="button" name="submit" class="btnSubmit btn-block" onclick="gotowhatsapp()" value="Submit" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	
+	 <script>
+        function gotowhatsapp() {
+
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+			var USER = document.getElementById("USER").value;
+			var POSITION = document.getElementById("POSITION").value;
+            var service = document.getElementById("service").value;
+			var DESCRIPTION = document.getElementById("DESCRIPTION").value;
+			
+
+            var url = "https://wa.me/917209976603?text="
+			 + "%0a" + "C-TRACK FEEDBACK FORM" + "%0a" + "%0a"
+                + "COMPANY NAME: " + name + "%0a"
+                + "Phone: " + phone + "%0a"
+                + "Email: " + email + "%0a"
+				+ "USER NAME: " + USER + "%0a"
+				+ "POSITION: " + POSITION+ "%0a"
+                + "ANY ISSUE WITH SOFTWARE: " + service+ "%0a"
+			+ "DESCRIPTION: " + DESCRIPTION+ "%0a" + "%0a"+ "OUR BULWARK FAMILY ALWAYS WITH YOU ";
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
